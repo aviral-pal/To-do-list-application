@@ -1,12 +1,91 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 To-Do List Application
 
-Currently, two official plugins are available:
+A simple and responsive **To-Do List** application built using **React**, **Vite**, and **Tailwind CSS**.  
+This project is part of an assignment for **Internshala Trainings**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add new tasks
+- ✅ Delete tasks
+- ✅ Mark tasks as completed
+- ✅ Edit existing tasks
+- ✅ Responsive & clean UI with Tailwind CSS
+
+---
+
+## 📁 Folder Structure
+
+```
+
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── ToDoList.jsx
+│   └── ToDoItem.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+````
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/aviral-pal/To-do-list-application.git
+cd To-do-list-application
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Open in browser**
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📄 Assignment Requirements Covered
+
+| Requirement                                 | Status |
+| ------------------------------------------- | ------ |
+| Create React App using Vite                 | ✅      |
+| Components: App, Header, ToDoList, ToDoItem | ✅      |
+| State & Props for data flow                 | ✅      |
+| Add / Delete / Complete / Edit tasks        | ✅      |
+| Render list dynamically using map()         | ✅      |
+| Tailwind CSS for styling                    | ✅      |
+| GitHub repo with README                     | ✅      |
+
+---
+
+## 🧑‍💻 Author
+
+**Aviral Pal**
+[GitHub](https://github.com/aviral-pal)
+[LinkedIn](https://linkedin.com/in/aviral-pal)
+
+---
+
+## 📃 License
+
+This project is for educational purposes. Feel free to fork or reference it.
+
+
