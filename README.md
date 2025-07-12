@@ -86,6 +86,7 @@ http://localhost:5173
 
 ## 📃 License
 
-This project is for educational purposes. Feel free to fork or reference it.
+This project is licensed under the [MIT License](LICENSE).
 
+You are free to use, modify, and distribute this software for personal or commercial purposes, with proper attribution.
 
